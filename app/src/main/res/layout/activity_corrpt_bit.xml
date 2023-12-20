@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checksum.NonCorptRes"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Result "
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rect"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:backgroundTint="#DDDDDD"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sent Text From Sender Side"
+            android:layout_gravity="left"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="7dp"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/sentoldText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint"
+
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:hint="Sent text"
+            android:layout_marginRight="3dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rect"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Binary Sum  Text From Sender Side"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/sendersideoldsum"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:hint="Transferred sum of binary"
+            android:textColorHint="@color/hint"
+
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Receiver Side Text From Receiver Side"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+
+
+        <TextView
+            android:id="@+id/recieversidenewtext"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/hint"
+
+            android:textColor="@color/black"
+            android:hint="Receiver Text"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Receiver Side sum From Receiver Side"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/receiversidenewsum"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/hint"
+
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint="Receiver sum"
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1's complement from Sender side Sum   "
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+
+        <TextView
+            android:id="@+id/ONEsNewCom"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/hint"
+
+            android:hint=" 1's complement from Sender side Binary Sum "
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Addition of Sender and receiver side Binary sum"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+            android:textColor="#653243"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/AdditonNew"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint=" Sender and receiver sum "
+            android:textColorHint="@color/hint"
+
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Reult    "
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#653243"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="9dp"
+
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"/>
+
+
+        <TextView
+            android:id="@+id/resultcrpt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint=" Data is coruppted or not "
+            android:textColorHint="@color/hint"
+
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/rect"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="40dp"/>
+
+</RelativeLayout>
+

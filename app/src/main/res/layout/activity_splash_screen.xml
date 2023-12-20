@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FEFEFE"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:shimmer_base_alpha="50"
+                    app:shimmer_highlight_alpha="50"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="600dp"
+                    app:shimmer_colored="true"
+                    app:shimmer_duration="2000"
+                    app:shimmer_base_color="#0C0C0C">
+
+                        <TextView
+                            android:id="@+id/txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="35dp"
+                            android:textAlignment="center"
+                            android:padding="5dp"
+                            android:text="ERROR DETECTION APP"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginRight="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#0A0B0B"/>
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/card"
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/img" />
+
+
+
+</RelativeLayout>
