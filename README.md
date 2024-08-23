@@ -24,13 +24,9 @@
    - Enter or upload the data you want to verify.
 2. **Choose Method:**
    - Select CRC, checksum, or parity bit verification.
-3. **Analyze:**
-   - Process the data and receive a detailed report on its integrity.
-4. **Detect Manipulation:**
-   - Identify potential data manipulations by various mediums.
-5. **Hacker Simulation:**
+3. **Hacker Simulation:**
    - View simulations of how data could be manipulated by hackers.
-6. **Learn:**
+4. **Learn:**
    - Use educational resources to understand each technique, its application, and how to protect against data manipulation.
 
 ### **Ideal Users:**
